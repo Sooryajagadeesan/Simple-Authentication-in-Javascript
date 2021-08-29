@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authenticator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="grid-container">
+        <div id="signup-div">
+            <form name = "signupForm" id="signup-form" action="">
+                <h2 id="signup-heading">Sign up</h2>
+                <div class="field">
+                    <div class="label">Name</div>
+                    <div class="value"><input name = "name" type="text" required /></div>
+                </div>
+                <div class="field">
+                    <div class="label">Email</div>
+                    <div class="value"><input name = "email" type="email" required /></div>
+                </div>
+                <div class="field">
+                    <div class="label">Password</div>
+                    <div class="value"><input name = "password" type="password" required /></div>
+                </div>
+                <!-- <div class="submit"><button type="submit" class ="submit-btn">Submit</button></div> -->
+                <br>
+                <div class="field submit class"><button class= "button signUp">Submit</button></button></div>
+
+            </form>
+        </div>
+        <div id="signin-div">
+            <h2 id="signin-heading">Sign in</h2>
+            <form name = "signinForm" id="signin-form" action="">
+                <div class="field">
+                    <div class="label">Email</div>
+                    <div class="value"><input name = "email" type="email" required /></div>
+                </div>
+                <div class="field">
+                    <div class="label">Password</div>
+                    <div class="value"><input name = "password" type="password" required /></div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <!-- <div class="submit"><button type="submit" class ="submit-btn">Submit</button></div> -->
+                <div class="field submit id"><button class= "button signIn">Submit</button></div>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
